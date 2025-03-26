@@ -14,11 +14,15 @@ let v6 = 3*(x*x)+komp*y+2;
 
   return (
     <>
-      <div>
-        <p>Równanie = {komp}</p>
+    <div className='app'>
+      <div className='center-box'>
+        <div className='first-box'>
+          <p>Równanie = {komp}</p>
+        </div>
       </div>
 
-      <div>
+    <div className='left-boxes'>
+      <div className='second-box'>
         {komp} * 1 = {komp * 1}<br />
         {komp} * 2 = {komp * 2}<br />
         {komp} * 3 = {komp * 3}<br />
@@ -31,7 +35,7 @@ let v6 = 3*(x*x)+komp*y+2;
         {komp} * 10 = {komp * 10}<br />
       </div>
 
-      <div>
+      <div className='third-box'>
         <li>{komp}x<sup>3</sup> + 1 - {komp}y = {v1}</li>
         <li>2x + 3*{komp} - 4y<sup>2</sup> = {v2}</li>
         <li>x<sup>{komp}</sup> - 2xy<sup>{komp}</sup> + 100 = {v3}</li>
@@ -39,7 +43,8 @@ let v6 = 3*(x*x)+komp*y+2;
         <li>2xy + {komp}xy = {v5}</li>
         <li>3x<sup>2</sup> + {komp}y + 2 = {v6}</li>
       </div>
-
+    </div>
+    </div>
     </>
   )
 }

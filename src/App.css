@@ -1,0 +1,73 @@
+/* Globalne style dla body i html - bez zmian */
+body {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.app {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.first-box {
+    font-size: 35px;
+    border: 10px ridge red;
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin-left: 20px;
+}
+
+.second-box {
+    border: 4px outset red;     
+    padding: 10px; 
+    font-size: 16px; 
+    margin: 10px; 
+    width: 180px; 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.third-box {
+    border: 4px outset red; 
+    padding: 10px; 
+    font-size: 16px; 
+    margin: 10px; 
+    width: 180px; 
+    background-color: white;
+    text-align: center;
+}
+
+li {
+    line-height: 2.3;
+}
