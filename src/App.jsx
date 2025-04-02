@@ -2,7 +2,7 @@ import './App.css'
 
 function App() {
 
-const komp = 2;
+const komp = 10;
 const x = 2, y = 3;
 
 let v1 = komp*(x*x*x)+1-komp*y;
