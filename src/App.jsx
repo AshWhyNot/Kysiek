@@ -12,6 +12,9 @@ let v4 = 3*(y*y)-komp*(x*x)*y-7*y;
 let v5 = 2*x*y+komp*x*y;
 let v6 = 3*(x*x)+komp*y+2;
 
+const num = 2;
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
   return (
     <>
     <div className='app'>
@@ -44,7 +47,19 @@ let v6 = 3*(x*x)+komp*y+2;
         <li>3x<sup>2</sup> + {komp}y + 2 = {v6}</li>
       </div>
     </div>
-    </div>
+   
+
+      <p className='array'>
+        {arr.map((liczba) => {
+          
+          return (
+            <div>
+              {liczba} * {num} = {num * liczba}
+            </div>
+          );
+        })}
+      </p>
+      </div>
     </>
   )
 }

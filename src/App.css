@@ -71,3 +71,16 @@ body, html {
 li {
     line-height: 2.3;
 }
+
+.array {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 250px;
+    margin-left: 35px;
+    font-size: 16px;
+    margin: 10px;
+    border: 4px outset red; 
+}
